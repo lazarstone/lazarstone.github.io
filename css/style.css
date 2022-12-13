@@ -28,12 +28,12 @@ body {
 }
 
 .slides-navigation a.prev {
-  left: clamp(7px, 2vw, 20px) /*20px*/;
+  left: clamp(5px, 2vw, 20px) /*20px*/;
   background-image: url(../img/icons/icons8-back-to-100.png);
 }
 
 .slides-navigation a.next {
-  right: clamp(7px, 2vw, 20px) /*20px*/;
+  right: clamp(5px, 2vw, 20px) /*20px*/;
   background-image: url(../img/icons/icons8-next-page-100.png);
 }
 
@@ -58,12 +58,12 @@ body {
 
 .titleMessage .heading .main {
   /*font-size: 50px;*/
-  font-size: clamp(20px, 6vw, 60px) /*6vw*/ /*60px*/;
+  font-size: clamp(21px, 6vw, 60px) /*6vw*/ /*60px*/;
 }
 
 .titleMessage .heading .sub {
   /*font-size: 23px;*/
-  font-size: clamp(10px, 3vw, 35px) /*3vw*/ /*35px*/;
+  font-size: clamp(8px, 3vw, 35px) /*3vw*/ /*35px*/;
 }
 
 .titleMessage .heading .sub span {
