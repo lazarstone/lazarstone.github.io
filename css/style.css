@@ -28,12 +28,12 @@ body {
 }
 
 .slides-navigation a.prev {
-  left: clamp(5px, 2vw, 20px) /*20px*/;
+  left: clamp(3px, 2vw, 20px) /*20px*/;
   background-image: url(../img/icons/icons8-back-to-100.png);
 }
 
 .slides-navigation a.next {
-  right: clamp(5px, 2vw, 20px) /*20px*/;
+  right: clamp(3px, 2vw, 20px) /*20px*/;
   background-image: url(../img/icons/icons8-next-page-100.png);
 }
 
@@ -44,7 +44,7 @@ body {
   top: 50%;
   z-index: 5;
   text-align: center;
-  margin-top: clamp(-100px, -8vw, -90px); /*-125px*/
+  margin-top: clamp(-100px, -8vw, -80px); /*-125px*/
 }
 
 .titleMessage .heading p {
@@ -63,7 +63,7 @@ body {
 
 .titleMessage .heading .sub {
   /*font-size: 23px;*/
-  font-size: clamp(8px, 3vw, 35px) /*3vw*/ /*35px*/;
+  font-size: clamp(7px, 3vw, 35px) /*3vw*/ /*35px*/;
 }
 
 .titleMessage .heading .sub span {
