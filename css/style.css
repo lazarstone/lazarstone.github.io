@@ -21,19 +21,19 @@ body {
 
 .slides-navigation .prev,
 .slides-navigation .next {
-  width: clamp(25px, 4vw, 47px) /*4vw*/ /*47px*/;
-  height: clamp(25px, 4vw, 47px) /*4vw*/ /*47px*/;
+  width: clamp(15px, 4vw, 47px) /*4vw*/ /*47px*/;
+  height: clamp(15px, 4vw, 47px) /*4vw*/ /*47px*/;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .slides-navigation a.prev {
-  left: clamp(10px, 2vw, 20px) /*20px*/;
+  left: clamp(7px, 2vw, 20px) /*20px*/;
   background-image: url(../img/icons/icons8-back-to-100.png);
 }
 
 .slides-navigation a.next {
-  right: clamp(10px, 2vw, 20px) /*20px*/;
+  right: clamp(7px, 2vw, 20px) /*20px*/;
   background-image: url(../img/icons/icons8-next-page-100.png);
 }
 
@@ -44,7 +44,7 @@ body {
   top: 50%;
   z-index: 5;
   text-align: center;
-  margin-top: clamp(-100px, -8vw, -70px); /*-125px*/
+  margin-top: clamp(-100px, -8vw, -90px); /*-125px*/
 }
 
 .titleMessage .heading p {
@@ -58,12 +58,12 @@ body {
 
 .titleMessage .heading .main {
   /*font-size: 50px;*/
-  font-size: clamp(30px, 6vw, 60px) /*6vw*/ /*60px*/;
+  font-size: clamp(20px, 6vw, 60px) /*6vw*/ /*60px*/;
 }
 
 .titleMessage .heading .sub {
   /*font-size: 23px;*/
-  font-size: clamp(18px, 3vw, 35px) /*3vw*/ /*35px*/;
+  font-size: clamp(10px, 3vw, 35px) /*3vw*/ /*35px*/;
 }
 
 .titleMessage .heading .sub span {
