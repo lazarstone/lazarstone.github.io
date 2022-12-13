@@ -21,19 +21,19 @@ body {
 
 .slides-navigation .prev,
 .slides-navigation .next {
-  width: 47px;
-  height: 47px;
+  width: clamp(25px, 4vw, 47px) /*4vw*/ /*47px*/;
+  height: clamp(25px, 4vw, 47px) /*4vw*/ /*47px*/;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .slides-navigation a.prev {
-  left: 20px;
+  left: clamp(10px, 2vw, 20px) /*20px*/;
   background-image: url(../img/icons/icons8-back-to-100.png);
 }
 
 .slides-navigation a.next {
-  right: 20px;
+  right: clamp(10px, 2vw, 20px) /*20px*/;
   background-image: url(../img/icons/icons8-next-page-100.png);
 }
 
@@ -44,7 +44,7 @@ body {
   top: 50%;
   z-index: 5;
   text-align: center;
-  margin-top: -125px;
+  margin-top: clamp(-100px, -8vw, -70px); /*-125px*/
 }
 
 .titleMessage .heading p {
@@ -53,17 +53,17 @@ body {
   /*font-weight: 100;*/
   font-weight: 200;
   /*letter-spacing: 7px;*/
-  letter-spacing: 13px;
+  letter-spacing: 1vw; /*13px;*/
 }
 
 .titleMessage .heading .main {
   /*font-size: 50px;*/
-  font-size: 60px;
+  font-size: clamp(30px, 6vw, 60px) /*6vw*/ /*60px*/;
 }
 
 .titleMessage .heading .sub {
   /*font-size: 23px;*/
-  font-size: 35px;
+  font-size: clamp(18px, 3vw, 35px) /*3vw*/ /*35px*/;
 }
 
 .titleMessage .heading .sub span {
