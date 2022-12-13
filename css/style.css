@@ -21,8 +21,8 @@ body {
 
 .slides-navigation .prev,
 .slides-navigation .next {
-  width: clamp(20px, 4vw, 47px) /*4vw*/ /*47px*/;
-  height: clamp(20px, 4vw, 47px) /*4vw*/ /*47px*/;
+  width: clamp(23px, 4vw, 47px) /*4vw*/ /*47px*/;
+  height: clamp(23px, 4vw, 47px) /*4vw*/ /*47px*/;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -44,7 +44,7 @@ body {
   top: 50%;
   z-index: 5;
   text-align: center;
-  margin-top: clamp(-100px, -8vw, -70px); /*-125px*/
+  margin-top: clamp(-100px, -8vw, -60px); /*-125px*/
 }
 
 .titleMessage .heading p {
@@ -58,16 +58,16 @@ body {
 
 .titleMessage .heading .main {
   /*font-size: 50px;*/
-  font-size: clamp(25px, 6vw, 60px) /*6vw*/ /*60px*/;
+  font-size: clamp(28px, 6vw, 60px) /*6vw*/ /*60px*/;
 }
 
 .titleMessage .heading .sub {
   /*font-size: 23px;*/
-  font-size: clamp(12px, 3vw, 35px) /*3vw*/ /*35px*/;
+  font-size: clamp(15px, 3vw, 35px) /*3vw*/ /*35px*/;
 }
 
 .titleMessage .heading .sub span {
-  color: blue;/*#eb2f06;*/
+  color: #eb2f06;
   font-weight: 200;
 }
 
