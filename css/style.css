@@ -447,6 +447,9 @@ https://stackoverflow.com/questions/68069042/how-an-i-change-the-bootstrap-5-nav
 
 .wrapper {
   display: inline-flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
 .wrapper .icon {
@@ -545,6 +548,13 @@ https://stackoverflow.com/questions/68069042/how-an-i-change-the-bootstrap-5-nav
 .wrapper .youtube:hover .tooltip,
 .wrapper .youtube:hover .tooltip::before {
   background-color: #de463b;
+  color: #ffffff;
+}
+
+.wrapper .vk:hover,
+.wrapper .vk:hover .tooltip,
+.wrapper .vk:hover .tooltip::before {
+  background-color: #4c75a3;
   color: #ffffff;
 }
 
